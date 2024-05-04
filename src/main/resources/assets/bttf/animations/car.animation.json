@@ -1,0 +1,112 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.car.hover": {
+			"loop": true,
+			"bones": {
+				"left_tire": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					},
+					"position": {
+						"vector": [12, 16, 0]
+					}
+				},
+				"right_tire": {
+					"rotation": {
+						"vector": [0, 0, -90]
+					},
+					"position": {
+						"vector": [-12, 16, 0]
+					}
+				}
+			}
+		},
+		"animation.car.ground": {
+			"loop": true
+		},
+		"animation.car.hovering": {
+			"animation_length": 1.5,
+			"bones": {
+				"left_tire": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [12, 18, 0]
+						}
+					}
+				},
+				"right_tire": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, -90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [-12, 16, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.car.grounding": {
+			"animation_length": 1.5,
+			"bones": {
+				"left_tire": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 90]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [12, 16, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"right_tire": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -90]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [-12, 16, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

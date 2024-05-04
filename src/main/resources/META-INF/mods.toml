@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="bttf"
+version="1.0.0"
+displayName="bttf"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Gabriele, MCreator"
+
+[[dependencies.bttf]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.bttf]]
+    modId="gecholib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

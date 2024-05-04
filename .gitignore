@@ -1,0 +1,10 @@
+.gradle
+.idea
+.mcreator
+.settings
+build
+elements
+.\grandle\wrapper
+run
+bttf.mcreator
+mcreator.gradle
